@@ -16,7 +16,9 @@ class ViewController: UIViewController {
     
     @IBAction func submitPressed(_ sender: Any) {
         
-        print(ageTextfield.text!)
+       let ageInCatYears = Int(ageTextfield.text!)! * 7
+      
+       ageLabel.text = String(ageInCatYears)
         
     }
     
