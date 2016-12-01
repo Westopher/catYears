@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     @IBAction func submitPressed(_ sender: Any) {
         
-        print(ageTextfield.text)
+        print(ageTextfield.text!)
         
     }
     
